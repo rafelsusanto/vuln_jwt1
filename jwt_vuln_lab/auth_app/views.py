@@ -82,3 +82,5 @@ def logout(request):
     response = redirect('/login/')  # Redirect to the login page
     response.delete_cookie('access')  # Remove the 'access' cookie
     return response
+
+# test change
